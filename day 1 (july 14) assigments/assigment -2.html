@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>day 2 </title>
+</head>
+<body>
+	<script type="text/javascript">
+		//var explained
+		var a = "rohit";
+		console.log(a);
+		var b = 100;
+		console.log(b);
+		var c = true;
+		console.log(c);
+		var d = ["virat","dhoni","dhawan"]
+		console.log(d);
+		var e = {name:"rohit",class:12};
+		console.log(e);
+		var f;
+		console.log(f);
+		var g = null;
+		console.log(g);
+
+		//elements can be redeclare
+		//example
+		var s =10;
+		console.log(s);
+		s=20;
+		console.log(s);
+		//var can access the variable which is assigned globally or locally...
+		//example
+		var name="rohit";
+		console.log(name);
+		{
+			var name ="saravanan";
+			console.log(name);
+		}
+		console.log(name);
+
+		//let 
+		//let variable can be decleared same as of var keyword
+		let m = "ram"
+		let n = 100
+		let gh = true;
+		// let can be redecleared
+		let x = 20
+		console.log(x);
+		x=100;
+		console.log(x);
+		//if let is defined inside the function it can be accessible only in that fucntion
+		{
+			let v = 100
+			console.log(v);
+		}
+		console.log(v);   // it cannot access the variable inside the function
+		/*error msg got :assigment ex 2.html:47 Uncaught ReferenceError: v is not defined
+    at assigment ex 2.html:47*/
+
+    	//const keyword
+    	//const must have a value
+    	const abc;
+    	console.log(abc);
+    	//const cannot redeclear
+    	const abcd=100;
+    	console.log(ab);
+    	const abcd=200;
+    	console.log(ab);
+    	//const can change the array by updating
+    	const fruit =["apple","greenapple"];
+    	console.log(fruit);
+    	fruit.push("orange");
+    	console.log(fruit);
+
+    	// this is the diff btw var let const
+	</script>
+</body>
+</html>
