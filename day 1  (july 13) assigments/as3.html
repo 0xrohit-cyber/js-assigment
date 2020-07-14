@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DAY 2 ASSIGMENT 3</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var a = new Date();
+		var dd = a.getDate();
+                var mm = a.getMonth()+1; 
+                var yyyy = a.getFullYear();
+                if(dd<10) 
+                {
+			dd='0'+dd;
+		} 
+        	if(mm<10) 
+       		{
+			mm='0'+mm;
+        	} 
+        	t = mm+'-'+dd+'-'+yyyy;
+        	document.write(t+",");
+        	t = mm+'/'+dd+'/'+yyyy;
+        	document.write(t+",");
+        	t = dd+'-'+mm+'-'+yyyy;
+        	document.write(t+",");
+        	t = dd+'/'+mm+'/'+yyyy;
+        	document.write(t);
+    </script>
+</body>
+</html>
+

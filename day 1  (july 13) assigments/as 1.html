@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title> 
+		DAY 2 Assignment excerise 1
+	</title> 
+</head> 
+<body> 
+	<script type="text/javascript"> 
+		var a = new Date(); 
+		var b = a.getDay();  
+		var days= ["Sunday","Monday","Tuesday", 
+			"Wednesday","Thursday","Friday","Saturday"]; 
+		document.write("Today is : "+days[b]); 
+		document.write("<br>")
+		var h = a.getHours(); 
+		var am = h >= 12 ? 'PM' : 'AM'; 
+		h = h % 12; 
+		h = h ? h : 12; 
+		var minute = a.getMinutes(); 
+		minute = minute < 10 ? '0' + minute : minute; 
+		var Time = h + " " + am + " : " + minute + 
+			" : " + a.getMilliseconds(); 
+		document.write("Current time is : " + Time); 
+	</script> 
+</body> 
+</html> 
