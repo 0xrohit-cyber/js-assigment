@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>day2 assigment</title>
+</head>
+<body>
+	<script type="text/javascript">
+	 c = prompt("Enter your mark :")
+	 if (c < 60 ){
+          console.log(" Marks are " + c + " and grade is E ");       
+      }else if (c< 70) {
+      	console.log(" Marks are " + c + " and grade is D "); 
+      }else if (c < 80) {
+        console.log(" Marks are " + c + " and grade is C "); 
+      }else if (c < 90) {
+      	console.log(" Marks are " + c + " and grade is B "); 
+      }else if (c <= 100) {
+        console.log(" Marks are " + c + " and grade is A ");
+    }
+    //switch 
+    grade= prompt("Enter your mark :")
+    switch (grade)
+    {
+    	case (grade >= 90): 
+    	console.log("A)";
+    	break;
+    	case (grade [ >= 80 and <90 ]):
+    	console.log("B");
+    	break;
+    	case (grade [ >= 70 and <80 ]):
+    	console.log("C");
+    	break;
+    	case (grade [ >= 60 and <70 ]):
+    	console.log("D");
+    	break;
+    	case (grade < 60):
+    	console.log("FAIL......");
+    	break;
+    	default:
+    	console.log("Wrong input........");
+    }
+	</script>
+</body>
+</html>
